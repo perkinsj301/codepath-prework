@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 ![]( http://g.recordit.co/H6J0KsfSWW.gif ) stop/start button changing
-![](gif2-link-here)
+![]( http://g.recordit.co/sE5WdadCTq.gif ) 3 strikes to lose
 ![](gif3-link-here)
 ![](gif4-link-here)
 
