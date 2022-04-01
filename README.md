@@ -47,10 +47,10 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+After having most of the game complete, I discovered an error when playing the game for myself. After playing a game and stopping, the next game would begin with progress not equal to zero. I was initially confused because I had declared progress as a global variable equal to zero. I took a look at what was happening whenever a new game starts and I realized that progress was not being initialized at the start of each game. Adding a line of code to initialize progress in the startGame() function fixed the issue. This small dilemma outlined how important it is to always initialize variables in a program whenever they are needed in a default state.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
