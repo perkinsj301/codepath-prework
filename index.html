@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      Jesse's Spectacular Memory Game
+    </h1>
+    <p>
+      In this game, your memory will be tested by having you repeat a series of button presses, each with an associated
+      color and sound. 
+    </p>
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      End
+    </button>
+    <div id="gameButtonArea">
+      <button id="Button1" onmousedown="startTone(1)" onmouseup="stopTone()" onclick="guess(1)"></button>
+      <button id="Button2" onmousedown="startTone(2)" onmouseup="stopTone()" onclick="guess(2)"></button>
+      <button id="Button3" onmousedown="startTone(3)" onmouseup="stopTone()" onclick="guess(3)"></button>
+      <button id="Button4" onmousedown="startTone(4)" onmouseup="stopTone()" onclick="guess(4)"></button>
+      
+      
+    </div>
+  </body>
+</html>
