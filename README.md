@@ -39,10 +39,10 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![]( http://g.recordit.co/H6J0KsfSWW.gif ) stop/start button changing
-![]( http://g.recordit.co/sE5WdadCTq.gif ) 3 strikes to lose
-![]( http://g.recordit.co/j143JV0YC4.gif ) random pattern every game
-![](gif4-link-here)
+![]( http://g.recordit.co/H6J0KsfSWW.gif )
+![]( http://g.recordit.co/sE5WdadCTq.gif )
+![]( http://g.recordit.co/j143JV0YC4.gif )
+![]( http://g.recordit.co/8kNy79uqMV.gif )
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
