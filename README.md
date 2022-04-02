@@ -67,7 +67,7 @@ Given more time, I would implement more features into the game. I had the idea t
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://drive.google.com/file/d/1BXyXf-9J8JF57y1Un5oSqUuaXIx5iPuk/view?usp=sharing)
 
 
 ## License
