@@ -47,16 +47,25 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
+
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+
 After having most of the game complete, I discovered an error when playing the game for myself. After playing a game and stopping, the next game would begin with progress not equal to zero. I was initially confused because I had declared progress as a global variable equal to zero. I took a look at what was happening whenever a new game starts and I realized that progress was not being initialized at the start of each game. Adding a line of code to initialize progress in the startGame() function fixed the issue. This small dilemma outlined how important it is to always initialize variables in a program whenever they are needed in a default state.
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+How can I make my web page more visually appealing? I feel that my page looks rather bland and basic. If I was creating a web page for lots of people to use, I want to be able to present the users with a professional and visually appealing site.  
+
+What does a typical day look like for a web developer? How much time do they spend collaborating with team members vs working on their own?
+
+What kind of roles need to be filled in a team of web developers? Will certain people only work on the layout of a webpage while another creates all of the functionality? Or will a whole team collaborate on everything?
+
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+Given more time, I would implement more features into the game. I had the idea to add a feature where the tones played by the clue sequence are not just random tones, but form the notes for songs. I would have done this by adding more game buttons, each with a corresponding frequency/note, and by having several predetermined button sequences (which would form the melody of a song), one of which would be randomly chosen at the start of each game. I also would have spent more time making my page more visually appealing. I would have experimented with different color schemes, and detailed the page, maybe using borders for elements or by giving the page layout more structure.
 
 
 
